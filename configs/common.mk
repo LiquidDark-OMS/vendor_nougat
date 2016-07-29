@@ -95,5 +95,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/nougat/overlay/common
 # Inherit common build prop overrides
 -include vendor/nougat/configs/common_versions.mk
 
+## Don't compile SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
+
 # Squisher script
 SQUISHER_SCRIPT := vendor/nougat/tools/squisher
