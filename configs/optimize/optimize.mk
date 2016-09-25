@@ -1,3 +1,6 @@
+# Build ninja
+export USE_SYSTEM_NINJA := true
+
 # Build system
 export USE_CCACHE := 1
 export USE_SYSTEM_CCACHE := 1
