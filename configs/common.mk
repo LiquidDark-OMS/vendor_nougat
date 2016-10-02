@@ -69,8 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/nougat/prebuilt/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
 
 # Ramdisk config
-PRODUCT_COPY_FILES += \
-    vendor/nougat/prebuilt/etc/init.nougat.rc:root/init.nougat.rc
+# PRODUCT_COPY_FILES += \
+#     vendor/nougat/prebuilt/etc/init.nougat.rc:root/init.nougat.rc
 
 # SuperSU
 PRODUCT_COPY_FILES += \
