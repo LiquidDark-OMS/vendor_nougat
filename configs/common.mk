@@ -86,6 +86,7 @@ PRODUCT_PACKAGES += \
     AOSPLinks \
     Busybox \
     Gallery2 \
+    Camera2 \
     Launcher3 \
     masquerade
 
