@@ -19,7 +19,7 @@ TARGET_VENDOR := lge
 # Device fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    ro.build.description=hammerhead-user 6.0.1 MOB31E 3142026 release-keys
+    ro.build.description="hammerhead-user 6.0.1 MOB31E 3142026 release-keys" \
     ro.build.fingerprint=google/hammerhead/hammerhead:6.0.1/MOB31E/3142026:user/release-keys
 
 # Target device
