@@ -23,7 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 DRAGONTC_VERSION := 3.8
 export $(DRAGONTC_VERSION)
 
-DTC_PATH := platform/prebuilts/clang/host/linux-x86/$(DRAGONTC_VERSION)
+DTC_PATH := prebuilts/clang/host/linux-x86/$(DRAGONTC_VERSION)
 DTC_VER := $(shell cat $(DTC_PATH)/VERSION)
 export $(DTC_VER)
 
